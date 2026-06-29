@@ -11,8 +11,8 @@ terraform {
   
   backend "s3" {
     # Update these values according to your setup
-    bucket = "demo-java-project-bucket-07"
-    key    = "java-app/terraform.tfstate"
+    # bucket = "demo-java-project-bucket-07"
+    # key    = "java-app/terraform.tfstate"
     region = "eu-north-1"
   }
 }
