@@ -1,4 +1,4 @@
-output "alb_arn" {
+output "alb_arn_output" {
   description = "ALB ARN"
   value       = aws_lb.main.arn
 }
